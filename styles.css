@@ -18,6 +18,35 @@ body, html {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.experiment-selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.experiment-selection h1 {
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.experiment-button {
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.experiment-button:hover {
+    background-color: #45a049;
+}
+
 .top-half {
     background: white;
     display: flex;
@@ -33,14 +62,14 @@ body, html {
 }
 
 .center-icon {
-    width: 80px; /* Change this to your desired width */
-    height: 80px; /* Change this to your desired height */
+    width: 80px;
+    height: 80px;
     margin-right: 20px;
 }
 
 .lab-text {
-    font-size: 24px; /* Adjust the text size as needed */
-    color: #000; /* Adjust the text color as needed */
+    font-size: 24px;
+    color: #000;
 }
 
 .bottom-half {
@@ -53,7 +82,7 @@ body, html {
 
 .bottom-half h2 {
     margin: 0 0 20px 0;
-    font-size: 24px; /* Adjust the heading size as needed */
+    font-size: 24px;
 }
 
 .button-container {
@@ -73,7 +102,7 @@ body, html {
     align-items: center;
     cursor: pointer;
     transition: transform 0.2s;
-    font-size: 16px; /* Adjust the button text size as needed */
+    font-size: 16px;
 }
 
 .category-button img {
