@@ -1,0 +1,87 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.top-half {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    position: relative;
+}
+
+.icon-text-container {
+    display: flex;
+    align-items: center;
+}
+
+.center-icon {
+    width: 80px; /* Change this to your desired width */
+    height: 80px; /* Change this to your desired height */
+    margin-right: 20px;
+}
+
+.lab-text {
+    font-size: 24px; /* Adjust the text size as needed */
+    color: #000; /* Adjust the text color as needed */
+}
+
+.bottom-half {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+}
+
+.bottom-half h2 {
+    margin: 0 0 20px 0;
+    font-size: 24px; /* Adjust the heading size as needed */
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.category-button {
+    background: none;
+    border: none;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+    font-size: 16px; /* Adjust the button text size as needed */
+}
+
+.category-button img {
+    max-width: 50px;
+    max-height: 50px;
+    margin-bottom: 5px;
+}
+
+.category-button:hover {
+    transform: scale(1.1);
+}
