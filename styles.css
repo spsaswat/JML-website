@@ -29,6 +29,7 @@ body, html {
 .experiment-selection h1 {
     margin-bottom: 20px;
     font-size: 32px;
+    text-align: center;
 }
 
 .experiment-button {
