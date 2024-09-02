@@ -2,6 +2,7 @@
 const expt2Button = document.getElementById("expt2-button");
 const expt3Button = document.getElementById("expt3-button");
 const expt4Button = document.getElementById("expt4-button");
+const expt5Button = document.getElementById("expt5-button");
 
 // Add click event listeners
 expt2Button.addEventListener("click", () => {
@@ -17,4 +18,9 @@ expt3Button.addEventListener("click", () => {
 expt4Button.addEventListener("click", () => {
     // Navigate to Expt 4 page
     window.location.href = "./expt4_home.html";
+});
+
+expt5Button.addEventListener("click", () => {
+    // Navigate to Expt 5 page
+    window.location.href = "./expt5_home.html";
 });
